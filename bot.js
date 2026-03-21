@@ -3,7 +3,7 @@ const TelegramBot = require('node-telegram-bot-api');
 
 const bot = new TelegramBot(process.env.BOT_TOKEN, { polling: true });
 
-const GAME_URL = 'https://game.scratchnft.site/';
+const GAME_URL = 'https://moto-runner.imperamonad.xyz/';
 const CONTRACT = '0xD49e4A6caEDf6e06C8E520E90518F7cDAcEbBd63';
 
 bot.onText(/\/start/, (msg) => {
