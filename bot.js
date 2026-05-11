@@ -4,7 +4,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const bot = new TelegramBot(process.env.BOT_TOKEN, { polling: true });
 
 const GAME_URL = 'https://moto-76s.pages.dev';
-const CONTRACT = '0xD49e4A6caEDf6e06C8E520E90518F7cDAcEbBd63';
+const CONTRACT = '';
 const CHAIN_ID = 143;
 const EXPLORER = 'https://monad.socialscan.io';
 
